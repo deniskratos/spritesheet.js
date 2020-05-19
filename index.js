@@ -191,7 +191,7 @@ function generate(files, options, callback) {
       index: index,
       path: resolvedItem,
       name: name,
-      extension: path.extname(resolvedItem)
+      extension: ''
     };
   });
 
